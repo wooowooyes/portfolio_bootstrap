@@ -9,6 +9,12 @@ p {
     color: grey;
 }
 
+.header {
+    color: white;
+    font-family: "PT Mono", sans-serif;
+    padding: 80px 80px;
+}
+
 .headerContainer {
     background-image: url(/images/bliss2.jpeg);
     background-repeat: no-repeat;
@@ -39,15 +45,6 @@ p {
     justify-content: flex-start;
 }
 
-#folderContainer {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 0;
-    height: auto;
-    align-items: flex-end;
-}
-
 .navButton {
     background-size: contain;
     background-repeat: no-repeat;
@@ -70,7 +67,6 @@ p {
 }
 
 .caseStudyImage {
-    display: grid;
     width: 100%;
     height: auto;
 }
@@ -119,6 +115,7 @@ li {
 }
 
 .col {
+    align-items: center;
     padding: 20px 20px !important;
     position: relative !important;
 }
@@ -126,4 +123,10 @@ li {
 .page-header {
     margin-bottom: 50px !important;
     text-align: center;
+}
+
+.jumbotron {
+    background-image: url("/images/bliss2.jpeg");
+    background-size: cover;
+    height: 450px;
 }
