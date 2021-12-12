@@ -12,18 +12,9 @@ p {
 .header {
     color: white;
     font-family: "PT Mono", sans-serif;
-    padding: 80px 80px;
-}
-
-.headerContainer {
-    background-image: url(/images/bliss2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-left: 0px;
+    padding-left: 5% !important;
+    padding-right: 30% !important;
+    padding-bottom: 5% !important;
 }
 
 .headerText {
@@ -34,15 +25,6 @@ p {
     margin-bottom: 0;
     background-size: cover;
     flex-direction: row;
-}
-
-.textcontainer {}
-
-.me {
-    display: flex;
-    width: 20%;
-    height: auto;
-    justify-content: flex-start;
 }
 
 .navButton {
@@ -86,20 +68,9 @@ li {
     height: 100px !important;
 }
 
-<!-- My UX Skills section coded using CSS flex -->.flexContainer {
-    display: flex;
-    flex-direction: column;
-}
-
 .skills {
     width: 33%;
     padding: 10px;
-}
-
-.myWork {}
-
-.workGrid {
-    display: grid;
 }
 
 #btn-back-to-top {
@@ -115,7 +86,6 @@ li {
 }
 
 .col {
-    align-items: center;
     padding: 20px 20px !important;
     position: relative !important;
 }
@@ -128,5 +98,9 @@ li {
 .jumbotron {
     background-image: url("/images/bliss2.jpeg");
     background-size: cover;
-    height: 450px;
+    height: 75vh;
+}
+
+img.navButton {
+    size: 20;
 }
