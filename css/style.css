@@ -4,9 +4,7 @@ body {
 }
 
 p {
-    display: flex;
-    justify-content: center;
-    color: grey;
+    color: #0D6EFD;
 }
 
 .header {
@@ -28,11 +26,9 @@ p {
 }
 
 .navButton {
-    background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 150%;
     height: auto;
-    text-align: center;
 }
 
 .plantgif {
@@ -40,7 +36,6 @@ p {
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
-    text-align: center;
 }
 
 .navButton:hover {
@@ -48,9 +43,8 @@ p {
     cursor: pointer;
 }
 
-.caseStudyImage {
-    width: 100%;
-    height: auto;
+.div.row.nav {
+    align-content: center;
 }
 
 ul {
@@ -63,16 +57,6 @@ li {
     padding-right: 20px !important;
 }
 
-.container-footer {
-    background-color: lightgrey;
-    height: 100px !important;
-}
-
-.skills {
-    width: 33%;
-    padding: 10px;
-}
-
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -81,13 +65,14 @@ li {
 }
 
 .container {
-    padding-top: 50px !important;
+    padding-top: 40px !important;
     padding-bottom: 80px !important;
 }
 
 .col {
     padding: 20px 20px !important;
     position: relative !important;
+    align-content: ;
 }
 
 .page-header {
@@ -101,6 +86,75 @@ li {
     height: 75vh;
 }
 
-img.navButton {
-    size: 20;
+
+/* FOOTER */
+
+.container-footer {
+    background-color: #fff;
+    height: 100px !important;
+}
+
+.footer-row {
+    padding-left: 94px;
+    padding-right: 62px;
+    padding-top: 36px;
+}
+
+
+/* CASE STUDY OVERLAY*/
+
+.img-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.caseStudyImage {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    color: #212529;
+    font-size: 30px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.sub-text {
+    font-family: "PT Sans", sans-serif;
+    color: #0D6EFD;
+    font-size: 20px;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
