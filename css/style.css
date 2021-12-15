@@ -57,13 +57,6 @@ li {
     padding-right: 20px !important;
 }
 
-#btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-}
-
 .container {
     padding-top: 40px !important;
     padding-bottom: 80px !important;
@@ -157,4 +150,13 @@ li {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+
+/* BACK TO TOP */
+
+.back-to-top {
+    position: fixed;
+    bottom: 125px;
+    right: 25px;
 }
