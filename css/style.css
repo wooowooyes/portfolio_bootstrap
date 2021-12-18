@@ -15,7 +15,6 @@ p {
 .col {
     padding: 20px 20px !important;
     position: relative !important;
-    align-content: ;
 }
 
 
@@ -23,7 +22,26 @@ p {
 
 .nav {
     background-color: whitesmoke!;
+}
+
+.navbar {
     height: 100px !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.nav-link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+}
+
+.nav-item {
+    padding-right: 40px !important;
+}
+
+.navbar-brand {
+    padding-left: 40px;
+    font-family: "PT Mono", sans-serif;
+    font-size: 30px;
 }
 
 
@@ -84,7 +102,7 @@ p {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .img-container:hover .overlay {
@@ -125,6 +143,7 @@ p {
     position: fixed;
     bottom: 125px;
     right: 25px;
+    color: #0D6EFD;
 }
 
 
