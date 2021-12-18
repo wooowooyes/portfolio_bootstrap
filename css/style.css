@@ -1,21 +1,70 @@
-body {
-    margin: 0;
-    background-color: whitesmoke;
-}
+/* TEXT */
 
 p {
     color: #0D6EFD;
 }
 
 
+/* PAGE STYLING */
+
+.container {
+    padding-top: 40px !important;
+    padding-bottom: 80px !important;
+}
+
+.col {
+    padding: 20px 20px !important;
+    position: relative !important;
+}
+
+
+/* NAV */
+
+.nav {
+    background-color: whitesmoke!;
+}
+
+.navbar {
+    height: 100px !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.nav-link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+}
+
+.nav-item {
+    padding-right: 40px !important;
+}
+
+.navbar-brand {
+    padding-left: 40px;
+    font-family: "PT Mono", sans-serif;
+    font-size: 30px;
+}
+
+
 /* JUMBOTRON */
 
+.jumbotron {
+    background-image: url("/images/bliss2.jpeg");
+    background-size: cover;
+    height: 75vh;
+}
+
 .header {
+    margin-top: 15%;
     color: white;
     font-family: "PT Mono", sans-serif;
-    padding-left: 5% !important;
-    padding-right: 30% !important;
-    padding-bottom: 5% !important;
+}
+
+
+/* WORK HEADER */
+
+.page-header {
+    margin-bottom: 50px !important;
+    text-align: center;
 }
 
 .headerText {
@@ -26,74 +75,6 @@ p {
     margin-bottom: 0;
     background-size: cover;
     flex-direction: row;
-}
-
-.navButton {
-    background-repeat: no-repeat;
-    width: 150%;
-    height: auto;
-}
-
-.plantgif {
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-}
-
-.navButton:hover {
-    transform: scale(1.5);
-    cursor: pointer;
-}
-
-.div.row.nav {
-    align-content: center;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    padding: 0px;
-}
-
-li {
-    padding-right: 20px !important;
-}
-
-.container {
-    padding-top: 40px !important;
-    padding-bottom: 80px !important;
-}
-
-.col {
-    padding: 20px 20px !important;
-    position: relative !important;
-    align-content: ;
-}
-
-.page-header {
-    margin-bottom: 50px !important;
-    text-align: center;
-}
-
-.jumbotron {
-    background-image: url("/images/bliss2.jpeg");
-    background-size: cover;
-    height: 75vh;
-}
-
-
-/* FOOTER */
-
-.container-footer {
-    background-color: #fff;
-    height: 100px !important;
-}
-
-.footer-row {
-    padding-left: 94px;
-    padding-right: 62px;
-    padding-top: 36px;
 }
 
 
@@ -121,7 +102,7 @@ li {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .img-container:hover .overlay {
@@ -162,4 +143,30 @@ li {
     position: fixed;
     bottom: 125px;
     right: 25px;
+    color: #0D6EFD;
+}
+
+
+/* FOOTER */
+
+.container-footer {
+    background-color: whitesmoke;
+    height: 100px !important;
+    margin-bottom: 0px !important;
+}
+
+.footer-row {
+    padding-left: 94px;
+    padding-right: 62px;
+    padding-top: 36px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+}
+
+li {
+    padding-right: 20px !important;
 }
