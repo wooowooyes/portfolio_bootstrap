@@ -47,7 +47,7 @@ p {
 
 /* JUMBOTRON */
 
-.jumbotron {
+.jumbotron-home {
     background-image: url("/images/bliss2.jpeg");
     background-size: cover;
     height: 75vh;
@@ -169,4 +169,27 @@ ul {
 
 li {
     padding-right: 20px !important;
+}
+
+
+/*CASE STUDY*/
+
+.jumbotron-Case {
+    height: 75vh;
+}
+
+.caseImage {
+    height: 400px;
+    padding-top: 20px;
+}
+
+.caseTitle {
+    padding-top: 30px;
+}
+
+
+/*ABOUT*/
+
+.Me {
+    height: 400px;
 }
