@@ -172,15 +172,19 @@ li {
 }
 
 
-/*GAP*/
+/*CASE STUDY*/
 
-.jumbotron-GAP {
+.jumbotron-Case {
     height: 75vh;
 }
 
-.gapImage {
+.caseImage {
     height: 400px;
     padding-top: 20px;
+}
+
+.caseTitle {
+    padding-top: 30px;
 }
 
 
