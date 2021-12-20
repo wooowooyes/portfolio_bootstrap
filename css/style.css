@@ -175,7 +175,17 @@ li {
 /*GAP*/
 
 .jumbotron-GAP {
-    background-image: url(/images/web.png);
-    background-size: cover;
-    height: 100vh;
+    height: 75vh;
+}
+
+.gapImage {
+    height: 400px;
+    padding-top: 20px;
+}
+
+
+/*ABOUT*/
+
+.Me {
+    height: 400px;
 }
