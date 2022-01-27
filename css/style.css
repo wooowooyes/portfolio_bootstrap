@@ -113,7 +113,7 @@ p {
     font-family: "PT Sans", sans-serif;
     font-weight: bold;
     color: #212529;
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
     bottom: 50%;
     left: 50%;
@@ -126,7 +126,7 @@ p {
 .sub-text {
     font-family: "PT Sans", sans-serif;
     color: #0D6EFD;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     bottom: 40%;
     left: 50%;
@@ -184,7 +184,44 @@ li {
 }
 
 .caseTitle {
-    padding-top: 30px;
+    margin-top: 30px !important;
+}
+
+.container-caseStudy {
+    padding-top: 40px !important;
+    padding-bottom: 0px !important;
+}
+
+.btn-circle.btn-xl {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.download-btn {
+    padding-top: 40px;
+}
+
+.container-navPage {
+    margin-left: 118px;
+    margin-right: 118px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 118px;
+    margin-right: 118px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
